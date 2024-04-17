@@ -1,0 +1,15 @@
+.px-wide > .image-carousel > .img {
+    width:640px;
+    height:360px;
+  }
+
+  
+  .container-sm {
+    display: flex;  
+    flex: auto
+
+  }
+  
+  /*login style*\
+
+  
