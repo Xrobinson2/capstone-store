@@ -1,31 +1,35 @@
-/*.px-wide > .image-carousel > .img {
-    width:640px;
-    height:360px;
-  }
 
-  
-  .container-sm {
-    display: flex;  
-    flex: auto
-
-  }
-  
-  
-
-*/
+main {
+   background: rgb(136, 136, 211);
+}
+ 
+/* product page styling */
  
  div.card-body {
     background-color: brown;
  }
 
- main {
-    background: rgb(136, 136, 211);
- }
+
  #products{
     background-color: crimson;
  }
+
+ #product-card {
+   margin-bottom: 80px;
+ }
+
+ #contain-bg{
+   background-color: #23a6d5;
+   backface-visibility: hidden;
+ }
+
+ #Header-p{
+   font-family:fantasy;
+   font-size: 60px;
+ }
+ /* signin in page styling */
  
- #sign-in{
+ #sign-in {
     margin-inline-end: 100px;
     margin-top: 20px;
  }
