@@ -1,12 +1,87 @@
 
-main {
-   background: rgb(136, 136, 211);
+/* home page */
+#first-head{
+   color:#1d1512
+}
+#homepage-bg{
+
+   background: linear-gradient(-45deg, #1d1512, #430c53, #2b8b38, #e1e2e2);
+   background-size: 400% 400%;
+   animation: gradient 10s ease infinite; }
+@keyframes gradient {
+       0% {
+           background-position: 0% 50%;
+       }
+       50% {
+           background-position: 100% 50%;
+       }
+       100% {
+           background-position: 0% 50%;
+       } }
+
+#footer-bg{
+   background-color: #2b243049;
+}
+
+#header-hp{
+   font-family: fantasy;
+   color: aliceblue;
+}
+#text-boxx{
+   margin-bottom: 40px;
+}
+
+#carousel-bg {
+   background-color: #1d15129d;
 }
  
-/* product page styling */
+#new-art{
+   color:white;
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background-size: 400% 400%;
+   animation: gradient 15s ease infinite; }
+@keyframes gradient {
+       0% {
+           background-position: 0% 50%;
+       }
+       50% {
+           background-position: 100% 50%;
+       }
+       100% {
+           background-position: 0% 50%;
+       } }
+
+hr {
+   border-top-style: groove;
+   border-width: 15px;
+   color: #e1e2e2;
+}
  
+.nav-item{
+   font-size: 20px;
+   
+}
+
+/* product page styling */
+#product-bg {
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23d58b, #aed523);
+background-size: 400% 400%;
+animation: gradient 10s ease infinite; }
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    } }
+
+
+
  div.card-body {
-    background-color: brown;
+    background-color: rgba(219, 198, 198, 0.363);
  }
 
 
@@ -26,13 +101,33 @@ main {
  #Header-p{
    font-family:fantasy;
    font-size: 60px;
+   color: aliceblue;
  }
  /* signin in page styling */
  
  #sign-in {
     margin-inline-end: 100px;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-family: fantasy;
  }
+
+ #sign-in-top{
+   font-family: fantasy;
+ }
+
+ .form-label{
+   font-weight: bold;
+   color: #e1e2e2;
+ }
+
+ .form-text{
+font-weight: bold;
+color: #e1e2e2;
+ }
+ .form-check-label{
+   color: #e1e2e2;
+ }
+ 
 
  #sign-contain{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -48,3 +143,43 @@ main {
         100% {
             background-position: 0% 50%;
         } }
+
+        /* checkout page */
+       #RegBorder{
+         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+         background-size: 400% 400%;
+         animation: gradient 15s ease infinite; }
+     @keyframes gradient {
+             0% {
+                 background-position: 0% 50%;
+             }
+             50% {
+                 background-position: 100% 50%;
+             }
+             100% {
+                 background-position: 0% 50%;
+             } }
+         
+         
+     
+       /* registration page styling */
+
+       #Reg-container{
+         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; }
+@keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        } }
+
+       main div div div h1{
+         font-family: fantasy;
+         color: #e1e2e2;
+       }
